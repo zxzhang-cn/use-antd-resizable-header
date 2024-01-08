@@ -4,7 +4,7 @@ import { Resizable, type ResizeCallbackData } from 'react-resizable'
 import { type OptionsType, type UARHColumnType } from './useAntdResizableHeader'
 import { isString } from './utils'
 import { useSafeState } from './utils/useSafeState'
-import './index.css'
+import './index.module.css'
 
 type OnMountType = (
   width: number,
